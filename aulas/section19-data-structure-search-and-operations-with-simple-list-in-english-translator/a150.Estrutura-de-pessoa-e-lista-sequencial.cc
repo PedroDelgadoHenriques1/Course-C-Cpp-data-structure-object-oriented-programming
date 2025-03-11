@@ -5,14 +5,47 @@
 
 using namespace std; 
 
+struct pessoa{
+    string nome;
+    int rg; 
+};
+
 void limpaTela(){
     system("clear");
+};
+
+void imprimeSequencial(pessoa *ponteiroSequencial, int tamanhoDaLista) {
+
+    int cont; 
+    for(cont = 0; cont < tamanhoDaLista; cont++){
+        cout << ponteiroSequencial[cont].nome << "," << ponteiroSequencial[cont].rg << "\n";
+    }
 }
 
 int main(){
  
     //Variáveis
     int funcaoDesejada = 0;
+
+    //Ponteiro para lista sequencial
+    pessoa *ponteiroSequencial;
+
+    //Tamanho da lista
+    int tamanhoDaLista = 0;
+
+    //EXEMPLO
+    pessoa *exemploListaSequencial = new pessoa[2];
+
+    //Dois Registros de exemplo
+    exemploListaSequencial[0].nome = "John";
+    exemploListaSequencial[0].rg = 123;
+    exemploListaSequencial[1].nome = "Maicon";
+    exemploListaSequencial[1].rg = 321;
+
+    //Faz o ponteiro principal apontar para o novo vetor
+    ponteiroSequencial = exemploListaSequencial;
+
+    imprimeSequencial(ponteiroSequencial, 2);
 
     while(funcaoDesejada < 10 && funcaoDesejada > 0) {
         //Mostrando o menu

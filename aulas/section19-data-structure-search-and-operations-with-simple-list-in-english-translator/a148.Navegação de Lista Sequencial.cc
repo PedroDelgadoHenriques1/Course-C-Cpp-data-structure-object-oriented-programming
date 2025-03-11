@@ -10,7 +10,7 @@ int * alocaVetor(int tam) {
     int *v;
 
     //Aloca memória para o novo vetor
-    v = (int *) malloc(tam * sizeof(int));
+    v = new int[tam];
 
     return v;
 }
