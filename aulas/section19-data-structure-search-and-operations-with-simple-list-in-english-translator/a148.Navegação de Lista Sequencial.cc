@@ -61,6 +61,9 @@ int main(){
         scanf("%d", &vetorLidoNaHora[cont]);
     }
 
+    // Free the allocated memory
+    delete[] vetorLidoNaHora;
+
     return 0;
 }
 
