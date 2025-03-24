@@ -1,4 +1,6 @@
-This repository gathers the programs and examples developed during the course "Learn C and C++ - Fundamentals for Programming Logic", designed for anyone who has always dreamed of becoming a programmer—even if you've never written a single line of code.
+This repository gathers the programs and examples developed during the course "Learn C and C++ - Fundamentals for Programming Logic", designed for anyone who has always dreamed of becoming a programmer—even if you've never written a single line of code.   
+
+Course Link: https://www.udemy.com/course/curso-completo-de-linguagem-c-iniciante-ao-avancado/?couponCode=ST22MT240325G3
 
 About the Course
 The course is completely geared towards beginners, providing a comprehensive introduction to the world of programming. By learning C, you gain a solid foundation that makes it easier to learn other modern languages, as many of them have been influenced by C.
